@@ -351,6 +351,35 @@ textarea {
 .gallery_img:first-child {
 	margin-left: 0;
 }
+.gallery_img .new {
+	position: absolute;
+	display: inline-block;
+	zoom: 10;
+	font-family: 'Playfair Display SC', Georgia, serif;
+	color: #fff;
+	background: #c51313;
+	/*background: rgba(0, 0, 0, 0.7);	*/
+	padding: 3px 10px 5px;
+	top: 0;
+	left: 0;
+	font-size: 18px;
+	font-weight: 700;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+.gallery_img:hover .new{
+	padding: 3px 20px 5px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
 .gallery_img .info {
 	position: relative;
 	display: inline-block;
@@ -369,6 +398,8 @@ textarea {
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
+
 .home_gallery .gallery_img .info {
 	margin-top: -26px;	
 }
